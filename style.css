@@ -474,7 +474,7 @@ img {
 }
 
 .languages__content {
-  gap: 0;
+  column-gap: 0.8rem;
 }
 
 .skills__name,
