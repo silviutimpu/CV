@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Resume</title>
+</head>
+<body >
+    <!-- Header -->
+<header class="l-header" id="l-header">
+    <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Silviu</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">
+                        <i class='bx bx-home nav__icon'></i>HOME
+                    </a>
+                </li>
+                
+                <li class="nav__item">
+                    <a href="#profile" class="nav__link">
+                        <i class='bx bx-user nav__icon'></i>PROFILE
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#education" class="nav__link">
+                        <i class='bx bx-book nav__icon'></i>EDUCATION
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                        <i class='bx bx-receipt nav__icon' ></i>SKILLS
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#volunteering" class="nav__link">
+                        <i class='bx bx-body nav__icon'></i>VOLUNTEERING
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#certificates" class="nav__link">
+                        <i class='bx bx-award nav__icon' ></i>CERTIFICATES
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-grid-alt'></i>
+        </div>
+    </nav>
+</header>
+
+<main class="l-main bd-container">
+    <div class="resume" id="area-cv">
+        <div class="resume__left">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+               <div class="home__container section bd-grid">
+                   <div class="home__data bd-grid">
+                       <img src="./images/profile.jpeg" alt="" class="home__img">
+
+                       <h1 class="home__title">ȚÎMPU SILVIU</h1>
+                       <h3 class="home__profession">Student</h3>
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <div>
+                            <a  download="" href="./pdf/CV-Țîmpu Silviu.pdf" class="home__button-movil">Download</a>
+                        </div>
+                   </div>
+               </div>    
+               
+               <div class="home__address bd-grid">
+                   <span class="home__information">
+                    <i class='bx bx-map home__icon'></i> Bacău & Iași, România
+                   </span>
+                   <span class="home__information">
+                    <i class='bx bx-envelope home__icon'></i> silviuflorin12@gmail.com
+                   </span>
+                   <span class="home__information">
+                    <i class='bx bx-phone home__icon'></i> 0747477700
+                   </span>
+               </div>
+            
+                <!-- Theme change button -->
+                <i class="far fa-moon change-theme" id="theme-button" title="Theme button" ></i>
+
+                <!-- Download pdf desktop -->
+                <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+            </section>          
+            
+
+            <!--========== SOCIAL ==========-->
+            <section class="social section">
+                <h2 class="section-title">SOCIAL</h2>
+
+                <div class="social__container bd-grid">
+                    <a href="https://www.linkedin.com/in/silviu-%C8%9B-678005138/" target="_blank" class="social__link">
+                        <i class='bx bxl-linkedin-square social__icon' ></i>
+                    </a>
+                    <a href="https://github.com/silviutimpu" target="_blank" class="social__link">
+                        <i class='bx bxl-github social__icon' ></i>
+                    </a>
+                    <a href="https://www.facebook.com/silviu.timpu" target="_blank" class="social__link">
+                        <i class='bx bxl-facebook-circle social__icon'></i>
+                    </a>
+                    <a href="https://www.instagram.com/silviutimpu/" target="_blank" class="social__link">
+                        <i class='bx bxl-instagram social__icon' ></i>
+                    </a>
+                </div>
+            </section>
+
+
+            <!--========== PROFILE ==========-->
+            <section class="profile section" id="profile">
+                <h2 class="section-title">Profile</h2>
+
+                <p class="profile__description">In the present, I am a student. The courses I attended have built me a foundation in economic disciplines, as well as programming and databases. In the past, I took part in volunteering actions, in Iași and Bacău.<br>Lately, I've been learning front end development on my own. What attracts me to the front end is the instant visual feedback that I get.</p>      
+            </section>
+            
+            <!--========== EDUCATION ==========-->
+            <section class="education section" id="education">
+                <h2 class="section-title">EDUCATION</h2>
+
+                <div class="education__container bd-grid">
+                    <div class="education__content">
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">Web Development</h3>
+                            <span class="education__studies">Zero To Mastery Academy</span>
+                            <span class="education__year">2020-present</span>
+                        </div>
+                    </div>
+                    <div class="education__content">
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <!-- <span class="education__line"></span> -->
+                        </div>
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">Economic Informatics</h3>
+                            <span class="education__studies">Facultatea de Economie și Administrarea Afacerilor, Iași</span>
+                            <span class="education__year">2018-2021</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--========== SKILLS  ==========-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">SKILLS</h2>
+
+                <div class="skills__content bd-grid">
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>HTML
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>CSS
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>JavaScript
+                        </li>
+                    </ul>
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>Databases
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>Github
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="resume__right">
+            <!--========== VOLUNTEERING ==========-->
+            <section class="volunteering section" id="volunteering">
+                <h2 class="section-title">Volunteering</h2>
+
+                <div class="volunteering__container bd-grid">
+                    <div class="volunteering__content">
+                        <div class="volunteering__time">
+                            <span class="volunteering__rounder"></span>
+                            <span class="volunteering__line"></span>
+                        </div>
+
+                        <div class="volunteering__data bd-grid">
+                            <h3 class="volunteering__title">Liga Studenților Economiști</h3>
+                            <span class="volunteering__time">From 2019 to 2020</span>
+                            <p class="experience__description">The activities within the association developed my communication and organization skills.</p>
+                        </div>
+                    </div>
+                    <div class="volunteering__content">
+                        <div class="volunteering__time">
+                            <span class="volunteering__rounder"></span>
+                            <!-- <span class="volunteering__line"></span> -->
+                        </div>
+
+                        <div class="volunteering__data bd-grid">
+                            <h3 class="volunteering__title">Federația Tinerilor din Bacău</h3>
+                            <span class="volunteering__time">From 2017 to 2018</span>
+                            <p class="experience__description">The main project was Bacău Youth Capital. Within it I participated in several community events.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!--========== CERTIFICATES ==========-->
+            <section class="certificate section" id="certificates">
+                <h2 class="section-title">CERTIFICATES</h2>
+
+                <div class="certificate__container bd-grid">
+                    <div class="certificate__content">
+                        <h3 class="certificate__title">Microsoft Azure Fundamentals</h3>
+                        <p class="certificate__description">
+                            Certificate for basic knowledge in  cloud.</p>
+                    </div>
+                    <div class="certificate__content">
+                        <h3 class="certificate__title"><a target="_blank" class="certificate__link" href="https://www.udemy.com/certificate/UC-5d44d3d7-f139-4683-8e6a-56b65b404e4b/" >Complete Web Developer in 2021: Zero to Mastery</a> </h3>
+                        <p class="certificate__description">
+                            Full Stack Web Developement course with 36 hours of content, focused on most in demand skills: HTML, CSS, Bootstrap, JavaScript, React.JS, Node.JS, Express, PostgreSQL  </p>
+                    </div>
+                    <div class="certificate__content">
+                        <h3 class="certificate__title"><a target="_blank" class="certificate__link" href="https://www.udemy.com/certificate/UC-1911b026-ede1-40c6-a31e-6d125a2abf20/">JavaScript: The Advanced Concepts</a></h3>
+                        <p class="certificate__description">
+                            JavaScript course with 25 hours of content, focused on how JavaScript works.  </p>
+                    </div>
+                </div> 
+            </section>
+
+
+            <!--========== LANGUAGES ==========-->
+            <section class="languages section">
+                <h2 class="section-title">LANGUAGES</h2>
+
+                <div class="languages__container">
+                    <ul class="languages__content bd-grid">
+                    <li class="languages__name">
+                        <span class="languages__circle"></span> Romanian(Native)
+                    </li>
+                    <li class="languages__name ">
+                        <span class="languages__circle"></span> English(B2)
+                    </li>
+                </ul>
+                </div>
+            </section>
+            
+            <!--========== INTERESTS ==========-->
+            <section class="interests section">
+               <h2 class="section-title">INTERESTS</h2> 
+
+               <div class="interests__container bd-grid">
+                   <div class="interests__content">
+                    <i class="fas fa-table-tennis interests__icon"></i>
+                    <span class="interests__name">Ping Pong</span>
+                   </div>
+                   <div class="interests__content">
+                    <i class="fas fa-campground interests__icon"></i>
+                    <span class="interests__name">Camping</span>
+                   </div>
+                   <div class="interests__content">
+                    <i class='bx bx-dumbbell interests__icon'></i>
+                    <span class="interests__name">Fitness</span>
+                   </div>
+                   <div class="interests__content">
+                    <i class='bx bxs-game interests__icon'></i>
+                    <span class="interests__name">Pc & Board Games</span>
+                   </div>
+               </div>
+               </section>
+        </div>
+    </div>
+</main>
+
+    <!-- Scroll top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+    </a>
+<script src="./js/html2pdf.bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
